@@ -1,0 +1,14 @@
+.body{
+    background-color: rgb(30,144,255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: black;
+    font-family: "Graduate";
+  }
+  
+  .length-control{
+   display: inline-block;
+    width: 250px;
+  }

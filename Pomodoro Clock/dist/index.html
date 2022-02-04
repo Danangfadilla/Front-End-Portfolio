@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pomodoro Clock</title>
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+    <!-- partial:index.partial.html -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" integrity="sha384-XdYbMnZ/QjLh6iI4ogqCTaIjrFk87ip+ekIjefZch0Y+PvJ8CDYtEs1ipDmPorQ+" crossorigin="anonymous">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+
+    <body class="body">
+        <div id="pomodoro-clock" class="text-center">
+            <h1>POMODORO CLOCK</h1>
+            <div class="length-control">
+                <h2 id="break-label">Break Length</h2>
+                <button id="break-increment" class="btn-level" value="+">
+                <i class="fa fa-arrow-up fa-2x"></i>
+            </button>
+                <p id="break-length" class="btn-level fa-2x">5</p>
+
+                <button id="break-decrement" class="btn-level" value="-">
+                <i class="fa fa-arrow-down fa-2x"></i>
+            </button>
+            </div>
+            <div class="length-control">
+                <h2 id="session-label">Session Length</h2>
+                <button id="session-increment" class="btn-level" value="+">
+                <i class="fa fa-arrow-up fa-2x"></i>
+            </button>
+                <p id="session-length" class="btn-level fa-2x">25</p>
+                <button id="session-decrement" class="btn-level" value="-">
+                <i class="fa fa-arrow-down fa-2x"></i>
+            </button>
+            </div>
+            <div class="timer">
+                <h2 id="timer-label">Session</h2>
+                <div id="time-left" class="fa-5x">25:00</div>
+            </div>
+            <div class="timer-control">
+                <button id="start_stop"><i class="fa fa-play fa-2x"></i>
+                <i class="fa fa-pause fa-2x"></i>
+            </button>
+                <button id="reset">
+                <i class="fa fa-refresh fa-2x"></i>
+            </button>
+            </div>
+            <audio id="beep" src="http://codingtutorials360.com/14244764.mp3" type="audio/mpeg"></audio>
+        </div>
+    </body>
+    <!-- partial -->
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
